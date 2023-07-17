@@ -72,6 +72,12 @@ Created a Jenkins pipeline script to accomplish the above task.
 
 	And build
 
-![image](https://github.com/Tripti-TD/Devopsproject2/assets/128075759/39e06fde-e567-438d-9a77-190a9e18ae93)
+![image](https://github.com/Tripti-TD/Devopscapstoneproject2/assets/128075759/1d40cbe8-613e-4b1e-8db6-2f4c5212e9cb)
 
-Please excuse me if something is missed.
+	Docker-Hub
+![image](https://github.com/Tripti-TD/Devopscapstoneproject2/assets/128075759/1f1f920e-0523-4a4d-94ac-fc4678e58977)
+
+	The Webpage
+![image](https://github.com/Tripti-TD/Devopscapstoneproject2/assets/128075759/7ead49b4-e8ca-4d6c-b12e-3f3af53653a0)
+
+Please excuse me if something missed.
