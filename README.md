@@ -1,8 +1,8 @@
 # Devopscapstoneproject2
 
 # Devopsproject2
+![architecture](https://github.com/Tripti-TD/Devopscapstoneproject2/assets/128075759/444d4ab9-9827-49ab-a2e5-f2f1e6ada48f)
 
-![architecture](https://github.com/Tripti-TD/Devopsproject2/assets/128075759/f3145072-c6c3-4d75-9f85-922a0213e477)
 
 Implemented a DevOps lifecycle such that all the requirements are implemented without any change in the Docker containers in the testing environment.
 CodeBuild is triggered once the commits are made in the master branch.
@@ -13,71 +13,74 @@ Created a Jenkins pipeline script to accomplish the above task.
 
 	Create an Ec2 instance for master-server
 
-![image](https://github.com/Tripti-TD/Devopsproject2/assets/128075759/78e8d2f1-3e53-4794-b6af-83a1e35eed0f)
+![image](https://github.com/Tripti-TD/Devopscapstoneproject2/assets/128075759/52411fe7-a0a5-49f9-9006-358f69f67b29)
 
 	Download terraform
-	Make main.tf file for creating 3 t2.medium instance 
+	Make main.tf file for creating 3 t2.medium instance
 
-![image](https://github.com/Tripti-TD/Devopsproject2/assets/128075759/fb04b9a0-8867-4ebe-a255-a9f4bfe4fd63)
+![image](https://github.com/Tripti-TD/Devopscapstoneproject2/assets/128075759/556b1247-b9dd-4546-a94f-f7059d00866b)
 
-![image](https://github.com/Tripti-TD/Devopsproject2/assets/128075759/c1172ec9-44c9-423c-bf7f-93dcfd0ba529)
+![image](https://github.com/Tripti-TD/Devopscapstoneproject2/assets/128075759/4d98dd46-0940-4b25-9bf4-616e9e7d6f5f)
 
-![image](https://github.com/Tripti-TD/Devopsproject2/assets/128075759/6a3e19d8-63a5-4e12-af12-4e31d22bb90b)
+![image](https://github.com/Tripti-TD/Devopscapstoneproject2/assets/128075759/3c83966a-d9b5-43f8-a041-a0eeba71f050)
 
-	Install docker and kubeadm, kubelet, and kubectl in Kubernetes master as well as worker nodes and install java in Kubernetes master.
+	Install docker and kubeadm, kubelet, and kubectl in kuberenetes master as well as worker nodes and install java in kubernetes master.
 
-![image](https://github.com/Tripti-TD/Devopsproject2/assets/128075759/5dbad39c-1165-4971-a3df-d383339a4109)
+ ![image](https://github.com/Tripti-TD/Devopscapstoneproject2/assets/128075759/4f1e944e-6557-42e4-81f2-0caad8804778)
 
-![image](https://github.com/Tripti-TD/Devopsproject2/assets/128075759/4a358147-9160-4dc7-9278-d9086ace81cb)
-
+![image](https://github.com/Tripti-TD/Devopscapstoneproject2/assets/128075759/a86b551a-6640-4416-9a3b-b8ee69ba39a8)
+ 
 	Run “kubeadm init” command in master node and join the workers node to paste join commands
 
-![image](https://github.com/Tripti-TD/Devopsproject2/assets/128075759/6cf7e67f-8193-4141-b9ee-bf50a26bfe16)
+![image](https://github.com/Tripti-TD/Devopscapstoneproject2/assets/128075759/8e1a6876-a011-442a-83eb-13ca27baf0d3)
 
-![image](https://github.com/Tripti-TD/Devopsproject2/assets/128075759/36cf612f-1f9e-43e4-bcf2-9f9738983d63)
+![image](https://github.com/Tripti-TD/Devopscapstoneproject2/assets/128075759/943370c2-a323-4abf-b271-bb6bb5582919)
 
-	In Kubernetes master run the following command to check nodes
+	In Kuberenetes master run the following command to check nodes
 
-![image](https://github.com/Tripti-TD/Devopsproject2/assets/128075759/d8721b32-580a-487e-b809-64900f76524d)
+![image](https://github.com/Tripti-TD/Devopscapstoneproject2/assets/128075759/ba1dee22-cc65-4c66-a7f4-d82dd7b1593a)
 
 	In Master-server install Jenkins and java
 
-![image](https://github.com/Tripti-TD/Devopsproject2/assets/128075759/21f6473e-9d23-429a-81d8-3362ffc637e5)
+![image](https://github.com/Tripti-TD/Devopscapstoneproject2/assets/128075759/6896237f-be87-4d86-9769-378202f25cf8)
 
 	Setup Jenkins
 
-![image](https://github.com/Tripti-TD/Devopsproject2/assets/128075759/b3e5d813-9cdf-4e1f-b6ec-1e0e5ddaedc1)
+![image](https://github.com/Tripti-TD/Devopscapstoneproject2/assets/128075759/b90332fc-3f19-4d94-856d-bce9e7ff5da0)
 
-	Set the Kubernetes master node in jenkins
+	Set the Kubernetes master node in Jenkins
 
-![image](https://github.com/Tripti-TD/Devopsproject2/assets/128075759/f9368531-0125-4f5b-8827-f31195ac38a9)
+![image](https://github.com/Tripti-TD/Devopscapstoneproject2/assets/128075759/52b71260-877e-45b1-b95b-3a88750b6ec7)
 
-![image](https://github.com/Tripti-TD/Devopsproject2/assets/128075759/8429fb14-a9c9-49ba-afa5-ac9a2580a374)
+![image](https://github.com/Tripti-TD/Devopscapstoneproject2/assets/128075759/3265162c-12ea-48fd-ab9b-bcfefe6f0b96)
 
-![image](https://github.com/Tripti-TD/Devopsproject2/assets/128075759/d30e4230-52d1-418b-ad96-0f0dfbdc6545)
+![image](https://github.com/Tripti-TD/Devopscapstoneproject2/assets/128075759/b18bc219-74b2-4693-bcf6-aec04928aa1a)
 
-	Set the credentials for the docker hub account
+	Set the credentials for docker-hub account 
 
-![image](https://github.com/Tripti-TD/Devopsproject2/assets/128075759/31715105-fd6e-4083-90fa-b946bef641f4)
+![image](https://github.com/Tripti-TD/Devopscapstoneproject2/assets/128075759/239a9d98-2346-4fbb-8419-074a432e8d98)
 
-![image](https://github.com/Tripti-TD/Devopsproject2/assets/128075759/3799b714-c667-4c3b-8e45-ea1cc56a77d9)
+![image](https://github.com/Tripti-TD/Devopscapstoneproject2/assets/128075759/aafd0abf-e4c3-489c-9628-3b7d4d857750)
 
 	Create a pipeline 
 
-![image](https://github.com/Tripti-TD/Devopsproject2/assets/128075759/838cd7cd-fa6f-4542-ac2c-9b74b6846881)
+![image](https://github.com/Tripti-TD/Devopscapstoneproject2/assets/128075759/0d2d903f-3257-4d4d-bb6f-095e8c86a3ea)
 
 	Write the script
 
-![image](https://github.com/Tripti-TD/Devopsproject2/assets/128075759/49ef956b-ef41-45e5-9139-2725f2db5e40)
-
+ ![image](https://github.com/Tripti-TD/Devopscapstoneproject2/assets/128075759/2e764fb1-3bbb-4f1f-b398-4d3dce577724)
+ 
 	And build
 
-![image](https://github.com/Tripti-TD/Devopscapstoneproject2/assets/128075759/1d40cbe8-613e-4b1e-8db6-2f4c5212e9cb)
+![image](https://github.com/Tripti-TD/Devopscapstoneproject2/assets/128075759/31b46e4c-0991-45d8-9a0e-879837c57261)
 
 	Docker-Hub
-![image](https://github.com/Tripti-TD/Devopscapstoneproject2/assets/128075759/1f1f920e-0523-4a4d-94ac-fc4678e58977)
+
+![image](https://github.com/Tripti-TD/Devopscapstoneproject2/assets/128075759/bd9ef290-bdb9-47d6-80ee-958a8898a6e3)
+
 
 	The Webpage
-![image](https://github.com/Tripti-TD/Devopscapstoneproject2/assets/128075759/7ead49b4-e8ca-4d6c-b12e-3f3af53653a0)
 
-Please excuse me if something missed.
+![image](https://github.com/Tripti-TD/Devopscapstoneproject2/assets/128075759/9e2d7e92-b714-4a4f-a185-058c4d2e9981)
+
+Note: Please excuse if something missed.
